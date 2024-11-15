@@ -1,4 +1,4 @@
-package com.singleton;
+package designpatterns.singleton;
 
 public class DBConnMultiThreading {
 
