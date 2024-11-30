@@ -1,4 +1,4 @@
-package designpatterns.factory.components;
+package designpatterns.factory;
 
 import designpatterns.factory.components.button.Button;
 import designpatterns.factory.components.dropdown.DropDown;

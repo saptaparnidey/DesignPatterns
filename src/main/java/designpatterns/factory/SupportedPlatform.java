@@ -1,4 +1,4 @@
-package designpatterns.factory.components;
+package designpatterns.factory;
 
 public enum SupportedPlatform {
     ANDROID,IOS

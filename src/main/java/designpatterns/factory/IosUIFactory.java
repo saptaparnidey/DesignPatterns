@@ -1,4 +1,4 @@
-package designpatterns.factory.components;
+package designpatterns.factory;
 
 import designpatterns.factory.components.button.Button;
 import designpatterns.factory.components.button.IosButton;
@@ -7,7 +7,7 @@ import designpatterns.factory.components.dropdown.IosDropDown;
 import designpatterns.factory.components.menu.IosMenu;
 import designpatterns.factory.components.menu.Menu;
 
-public class IosUIFactory implements UIFactory{
+public class IosUIFactory implements UIFactory {
     @Override
     public Button createButton() {
         return new IosButton();

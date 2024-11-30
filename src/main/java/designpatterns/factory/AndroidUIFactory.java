@@ -1,16 +1,13 @@
-package designpatterns.factory.components;
+package designpatterns.factory;
 
 import designpatterns.factory.components.button.AndroidButton;
 import designpatterns.factory.components.button.Button;
-import designpatterns.factory.components.button.IosButton;
 import designpatterns.factory.components.dropdown.AndroidDropDown;
 import designpatterns.factory.components.dropdown.DropDown;
-import designpatterns.factory.components.dropdown.IosDropDown;
 import designpatterns.factory.components.menu.AndroidMenu;
-import designpatterns.factory.components.menu.IosMenu;
 import designpatterns.factory.components.menu.Menu;
 
-public class AndroidUIFactory implements UIFactory{
+public class AndroidUIFactory implements UIFactory {
     @Override
     public Button createButton() {
         return new AndroidButton();
